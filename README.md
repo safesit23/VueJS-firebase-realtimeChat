@@ -37,8 +37,8 @@ We use [VueJS](https://vuejs.org/)
     npm run build --report
     ```
     
-##Screenshot 
-https://raw.githubusercontent.com/bankjirapan/VueJS-firebase-realtimeChat/master/img/1.png
-https://raw.githubusercontent.com/bankjirapan/VueJS-firebase-realtimeChat/master/img/2.png
+##Screenshot <br>
+![alt text](https://raw.githubusercontent.com/bankjirapan/VueJS-firebase-realtimeChat/master/img/1.png)
+![alt text](https://raw.githubusercontent.com/bankjirapan/VueJS-firebase-realtimeChat/master/img/2.png)
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
