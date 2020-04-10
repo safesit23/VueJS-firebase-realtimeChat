@@ -1,21 +1,40 @@
-# simple-chat
+<h1 align="center">
+  VueJS-RealtimeChat
+</h1>
+<h6 align="center">
+  VueJs group chat  realtime database firebase 
+</h6>
 
-> simple chat with firebase
 
-## Build Setup
+Web Application group chat used firebase store version 7
 
-``` bash
-# install dependencies
-npm install
+We use [VueJS](https://vuejs.org/)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 🚀 Quick start
 
-# build for production with minification
-npm run build
+1.  **Install Project**
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+    The Gatsby CLI helps you create new sites using Gatsby starters (like this one!)
+
+    ```sh
+    # install
+    npm install
+    ```
+
+2.  **Run project** 
+
+    ``` bash
+    # install dependencies
+    npm install
+
+    # serve with hot reload at localhost:8080
+    npm run dev
+
+    # build for production with minification
+    npm run build
+
+    # build for production and view the bundle analyzer report
+    npm run build --report
+    ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
