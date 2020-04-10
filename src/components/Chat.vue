@@ -1,14 +1,16 @@
 <template>
   <div class="chat container">
-    <h2 class="center teal-text">Simple Chat</h2>
+    <h2 class="center teal-text">INT301 Chat</h2>
 
     <div class="card">
       <div class="card-content">
-        <ul class="messages" :key="key" v-for="(message, key) in messages">
-          <li>
+        <ul class="messages" v-chat-scroll>
+          <li :key="key" v-for="(message, key) in messages">
             <span class="teal-text">{{message.name}}</span>
             <span class="gray-text text-darken-3">{{message.content}}</span>
-            <span class="gray-text time">{{message.timestamp}}</span>
+            <span
+              class="gray-text time"
+            >{{message.timestamp | moment("dddd, MMMM Do YYYY, h:mm:ss a")}}</span>
           </li>
         </ul>
       </div>
@@ -21,6 +23,8 @@
 </template>
 
 <script>
+import moment from "moment";
+
 import NewMessage from "@/components/NewMessage";
 import { messages } from "../firebase/config";
 
@@ -56,7 +60,21 @@ export default {
   font-size: 1.4em;
 }
 .chat .time {
+  color: rgb(97, 97, 97);
   display: block;
-  font-size: 1.2em;
+  font-size: 0.8em;
+}
+.messages {
+  max-height: 400px;
+  overflow: auto;
+}
+.messages::-webkit-scrollbar {
+  width: 3px !important;
+}
+.messages::-webkit-scrollbar-track {
+  background: #ddd !important;
+}
+.messages::-webkit-scrollbar-thumb {
+  background: #aaa !important;
 }
 </style>
