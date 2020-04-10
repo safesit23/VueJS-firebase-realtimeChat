@@ -37,7 +37,7 @@ We use [VueJS](https://vuejs.org/)
     npm run build --report
     ```
     
-##Screenshot <br>
+## Screenshot <br>
 ![alt text](https://raw.githubusercontent.com/bankjirapan/VueJS-firebase-realtimeChat/master/img/1.png)
 ![alt text](https://raw.githubusercontent.com/bankjirapan/VueJS-firebase-realtimeChat/master/img/2.png)
 
